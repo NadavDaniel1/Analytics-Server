@@ -1,4 +1,6 @@
-# Analytics SDK Project 📊
+# Analytics-Server Project 📊
+> **Looking for the Android Client?** Check out the 
+[Android SDK & Demo App Repository](https://github.com/NadavDaniel1/Analytics-Android-SDK)
 
 A complete analytics solution including an Android SDK, a Python Backend Server, and a Cloud Database.
 
