@@ -1,0 +1,22 @@
+# Analytics SDK Project 📊
+
+A complete analytics solution including an Android SDK, a Python Backend Server, and a Cloud Database.
+
+## 🚀 Overview
+This project demonstrates a full-stack analytics architecture. It allows Android developers to easily track user events, store them locally when offline, and sync them to a remote server when online.
+
+## 🛠 Architecture
+* **Android SDK:** Written in Kotlin. Uses **Room** for offline caching and **Retrofit** for API calls.
+* **Backend API:** Python **Flask** server.
+* **Database:** **MongoDB Atlas** (Cloud NoSQL).
+* **Visualization:** MongoDB Charts Dashboard.
+
+## 📱 Android SDK Installation
+Add the library to your project and initialize it in your `MainActivity`:
+
+```kotlin
+// Initialize the SDK
+AnalyticsManager.init(this)
+
+// Track an event
+AnalyticsManager.trackEvent("Button_Clicked", mapOf("user_type" to "student"))
