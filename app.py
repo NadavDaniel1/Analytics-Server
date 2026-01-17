@@ -3,6 +3,8 @@ from pymongo import MongoClient
 import datetime
 import os
 from dotenv import load_dotenv
+import certifi
+
 
 # Load environment variables from .env file
 load_dotenv()
@@ -11,6 +13,8 @@ app = Flask(__name__)
 
 # Retrieve MongoDB connection string from environment variables
 MONGO_URI = os.getenv("MONGO_URI")
+
+client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
 
 # --- Database Connection Setup ---
 try:
