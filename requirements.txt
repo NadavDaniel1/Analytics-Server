@@ -3,3 +3,6 @@ pymongo
 python-dotenv
 certifi
 gunicorn
+streamlit
+pandas
+plotly
