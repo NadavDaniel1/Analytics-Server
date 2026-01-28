@@ -7,6 +7,8 @@ A complete analytics solution including an Android SDK, a Python Backend Server,
 ## 🚀 Overview
 This project demonstrates a full-stack analytics architecture. It allows Android developers to easily track user events, store them locally when offline, and sync them to a remote server when online.
 
+<img width="2816" height="1536" alt="system_design" src="https://github.com/user-attachments/assets/784f13ed-7830-43ae-a6bc-eb885c946c25" />
+
 ## 🛠 Architecture
 * **Android SDK:** Written in Kotlin. Uses **Room** for offline caching and **Retrofit** for API calls.
 * **Backend API:** Python **Flask** server.
